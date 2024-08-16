@@ -10,7 +10,8 @@ public class DivisibilityCode {
         Scanner sc= new Scanner(System.in);
         int st=sc.nextInt();
         int end=sc.nextInt();
-
+        sc.close();
+        
         int x=0,y=0,z=0;
 
         int c=0;
