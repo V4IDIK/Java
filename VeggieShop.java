@@ -53,5 +53,6 @@ public class VeggieShop {
         }
         else; 
             System.out.println("Not available");    
+        sc.close();
     }
 }
