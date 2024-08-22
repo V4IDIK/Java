@@ -1,6 +1,7 @@
 package lab;
 import java.util.Scanner;
 
+// Class for Summation
 class Sum{
 	public int sum(int a,int b) {
 		
@@ -9,6 +10,8 @@ class Sum{
 		return sum;
 	}
 }
+
+// Class for Difference
 class Diff{
 	public int diff(int a,int b) {
 		
@@ -17,6 +20,8 @@ class Diff{
 		return diff;
 	}
 }
+
+// Main Class 
 public class Assignment1 {
     public static void main(String[]args) {
         
@@ -29,7 +34,7 @@ public class Assignment1 {
         int b=sc.nextInt();
         sc.close();
            
-        System.out.println("The sum is: "+ s1.sum(a, b));
-        System.out.println("The difference is: "+ d1.diff(a, b));  
+        System.out.println("Sum of the numbers: "+ s1.sum(a, b));
+        System.out.println("Difference of the numbers: "+ d1.diff(a, b));  
     }
 }
