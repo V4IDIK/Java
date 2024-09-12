@@ -23,9 +23,10 @@ public class Over_loadnride {
     public static void main(String[] args) {
         
         overloading o=new overloading();
-        Override oo=new Override();
         System.out.println(o.add(1, 2));
         System.out.println(o.add(1, 2, 3));
+        
+        Override oo=new Override();
         System.out.println(oo.add(1, 2));
     }
 }
