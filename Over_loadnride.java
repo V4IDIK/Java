@@ -19,7 +19,7 @@ class Override extends overloading{
     }
 }
 
-public class Over_loadnride {
+public class Over_loadnride{
     public static void main(String[] args) {
         
         overloading o=new overloading();
